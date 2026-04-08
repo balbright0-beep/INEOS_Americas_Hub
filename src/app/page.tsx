@@ -56,9 +56,7 @@ export default function Home() {
       <nav className="bg-ineos-charcoal text-white">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-ineos-red rounded flex items-center justify-center font-bold text-lg">
-              IN
-            </div>
+            <img src="/ineos-mark.svg" alt="INEOS" className="w-10 h-10" />
             <div>
               <div className="text-lg font-semibold tracking-tight">INEOS Automotive</div>
               <div className="text-xs text-ineos-silver-dust tracking-wide uppercase">Americas Hub</div>
